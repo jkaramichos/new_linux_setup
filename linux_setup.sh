@@ -20,3 +20,5 @@ printf '\nbind ' >> ~/.bashrc && printf "'" >> ~/.bashrc && echo -n "\e[B" >> ~/
 printf '\nexport PATH=$PATH:/snap/bin' >> ~/.bashrc
 printf "\nexport PROMPT_COMMAND" >> ~/.bashrc
 echo '="echo -n \[\$(date +%F-%T)\]\ "' >> ~/.bashrc
+
+source ~/.bashrc
